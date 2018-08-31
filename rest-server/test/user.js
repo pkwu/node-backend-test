@@ -1,6 +1,3 @@
-require('babel-register');
-require('babel-polyfill');
-
 const { User } = require('../src/config/database/collections/userCollections');
 const chai = require('chai');
 const chaiHttp = require('chai-http');
